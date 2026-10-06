@@ -1,3 +1,6 @@
+# NOTĂ: Pentru ca acest script să funcționeze, trebuie rulat din terminal 
+# oferind obligatoriu adresa unui site (URL) ca argument.
+# Exemplu de rulare corectă: python main.py https://cybercor.org
 # Laborator: funcții, metode și importuri pe web
 # Student: Bors Ion
 
