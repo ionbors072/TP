@@ -1,0 +1,19 @@
+{
+    "strat": "url",
+    "straturi_succesive": [
+        "base64",
+        "hex",
+        "url"
+    ],
+    "intrare": "NDY0YzQxNDcyNTM3NDI2NjZmNzI2NTZlNzM2OTYzNzM1ZjczNzQ3MjYxNzQ1ZjZkNzU2Yzc0Njk3MDZjNzU1ZjY0NjU3MzYzNmY3MDY1NzI2OTc0MjUzNzQ0",
+    "rezultat": "FLAG{forensics_strat_multiplu_descoperit}",
+    "xor": {
+        "cheie": 55,
+        "clar": "FLAG{spargere_xor_simpla_si_rapida}"
+    },
+    "hash": {
+        "algoritm": "md5",
+        "hash": "b41669104dd91161851fd38c38218b32",
+        "parola": "cibersecuritate2026"
+    }
+}
