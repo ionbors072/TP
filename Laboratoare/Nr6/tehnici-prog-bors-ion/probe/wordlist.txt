@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 admin
 123456
 parola
@@ -8,3 +9,15 @@ cibersecuritate2026
 secret
 root
 toor
+=======
+admin
+123456
+parola
+student
+utm
+fcim
+cibersecuritate2026
+secret
+root
+toor
+>>>>>>> b9204ed (Introducerea Lab 8B)

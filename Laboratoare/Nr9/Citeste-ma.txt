@@ -1,0 +1,25 @@
+Laboratorul 9 - Colectii
+
+Comenzile se ruleaza din folderul lab 9:
+
+python -m arsenal.privesc.enum arsenal/privesc/start
+python -m arsenal.privesc.enum arsenal/privesc/start --json
+python -m arsenal.privesc.diferenta arsenal/privesc/start
+python -m pytest -q -p no:cacheprovider arsenal/privesc/test_diferenta.py
+
+Raportul este salvat in arsenal/privesc/enum.json.
+Pentru ultima comanda este necesar pytest.
+
+Verificari A1 si A2:
+14 linii SUID, 13 nume distincte.
+
+Rezultatul lucrarii A:
+suid: 13 gasite, 4 cu risc mare
+sudo: 3 gasite, 2 cu risc mare
+cron: 3 gasite, 0 cu risc mare
+utilizatori implicati: ana, root, www-data
+
+Rezultatul lucrarii B:
+Baza contine 9 cai, iar captura curenta contine 13 cai unice.
+Cele 4 cai noi sunt /bin/cp, /usr/bin/find, /usr/bin/nmap si
+/usr/bin/vim.basic. Toate au risc mare conform multimii GTFO din laborator.
